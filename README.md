@@ -1,6 +1,6 @@
-# HTC Desire 628 dual sim - AEX 6.x (Oreo 9.x)
+# HTC Desire 628 dual sim - AEX 6.x (Pie 9.x)
 
-This is device tree for building of the Android Oreo 9.x AOSP/AEX ROMs.
+This is device tree for building of the Android Pie 9.x AOSP/AEX ROMs.
 
 ---
 
@@ -46,10 +46,10 @@ Front Camera | 5MP, Int. 5MP
  * Adjustable brightness
  * Hardware acceleration
  * Rotation
+ * Audio over Bluetooth (music, calls .etc)
 
 -------------
 ## Testing...
- * Audio over Bluetooth (music, calls .etc)
  * All sensors
 
 -------------
@@ -72,7 +72,7 @@ Use server/virtual with Ubuntu 16.04 Xenial.
 Install packages:
 ```
 apt-get update
-apt-get install openjdk-8-jdk android-tools-adb bc bison build-essential curl flex g++-multilib gcc-multilib gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc yasm zip zlib1g-dev git wget curl git
+apt-get install openjdk-8-jdk android-tools-adb bc bison build-essential curl flex g++-multilib gcc-multilib gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc yasm zip lib1g-dev git wget curl git
 ```
 Install repo tool:
 ```
